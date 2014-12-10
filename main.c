@@ -73,7 +73,7 @@ int main(int argc, char **argv)
 		//WHIRLPOOL
 		printf("WHIRLPOOL: %s\n", whirlpool_make((unsigned char*)concat(argv[1], argv[2], NULL)));
 	
-	} else {printf("2manyarguments\n");}
+	} else {printf("Too many arguments.\n");}
 
 	return 1;
 }
